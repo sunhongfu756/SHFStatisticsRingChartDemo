@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60FDE9A9223904F80069082E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FDE9A8223904F80069082E /* AppDelegate.m */; };
+		60FDE9AC223904F80069082E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FDE9AB223904F80069082E /* ViewController.m */; };
+		60FDE9AF223904F80069082E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60FDE9AD223904F80069082E /* Main.storyboard */; };
+		60FDE9B1223904FB0069082E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60FDE9B0223904FB0069082E /* Assets.xcassets */; };
+		60FDE9B4223904FB0069082E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60FDE9B2223904FB0069082E /* LaunchScreen.storyboard */; };
+		60FDE9B7223904FB0069082E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FDE9B6223904FB0069082E /* main.m */; };
+		60FDE9C1223904FB0069082E /* SHFStatisticsRingChartDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FDE9C0223904FB0069082E /* SHFStatisticsRingChartDemoTests.m */; };
+		60FDE9CC223904FB0069082E /* SHFStatisticsRingChartDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FDE9CB223904FB0069082E /* SHFStatisticsRingChartDemoUITests.m */; };
+		60FDE9ED223905670069082E /* StatisticsRingParentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FDE9DB223905670069082E /* StatisticsRingParentView.m */; };
+		60FDE9EE223905670069082E /* RingInstructionsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FDE9DC223905670069082E /* RingInstructionsCollectionViewCell.m */; };
+		60FDE9F2223905670069082E /* RingInstructionsListCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FDE9E1223905670069082E /* RingInstructionsListCollectionView.m */; };
+		60FDE9F4223905670069082E /* StatisticsRingChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FDE9EA223905670069082E /* StatisticsRingChartView.m */; };
+		60FDE9F8223906F40069082E /* UIColor+LYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FDE9F7223906F40069082E /* UIColor+LYKit.m */; };
+		60FDE9FD223908050069082E /* RingInstructionsListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FDE9F9223908050069082E /* RingInstructionsListModel.m */; };
+		60FDE9FE223908050069082E /* StatisticsRingParentViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FDE9FB223908050069082E /* StatisticsRingParentViewModel.m */; };
+		60FDEA06223909DD0069082E /* UIView+LYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FDEA05223909DD0069082E /* UIView+LYKit.m */; };
+		60FDEA0922390ABC0069082E /* StatisticsDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FDEA0822390ABB0069082E /* StatisticsDataModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60FDE9BD223904FB0069082E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60FDE99C223904F80069082E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60FDE9A3223904F80069082E;
+			remoteInfo = SHFStatisticsRingChartDemo;
+		};
+		60FDE9C8223904FB0069082E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60FDE99C223904F80069082E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60FDE9A3223904F80069082E;
+			remoteInfo = SHFStatisticsRingChartDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60FDE9A4223904F80069082E /* SHFStatisticsRingChartDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHFStatisticsRingChartDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60FDE9A7223904F80069082E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60FDE9A8223904F80069082E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60FDE9AA223904F80069082E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		60FDE9AB223904F80069082E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		60FDE9AE223904F80069082E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60FDE9B0223904FB0069082E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60FDE9B3223904FB0069082E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60FDE9B5223904FB0069082E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60FDE9B6223904FB0069082E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60FDE9BC223904FB0069082E /* SHFStatisticsRingChartDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHFStatisticsRingChartDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60FDE9C0223904FB0069082E /* SHFStatisticsRingChartDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHFStatisticsRingChartDemoTests.m; sourceTree = "<group>"; };
+		60FDE9C2223904FB0069082E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60FDE9C7223904FB0069082E /* SHFStatisticsRingChartDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHFStatisticsRingChartDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60FDE9CB223904FB0069082E /* SHFStatisticsRingChartDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHFStatisticsRingChartDemoUITests.m; sourceTree = "<group>"; };
+		60FDE9CD223904FB0069082E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60FDE9DB223905670069082E /* StatisticsRingParentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatisticsRingParentView.m; sourceTree = "<group>"; };
+		60FDE9DC223905670069082E /* RingInstructionsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RingInstructionsCollectionViewCell.m; sourceTree = "<group>"; };
+		60FDE9E1223905670069082E /* RingInstructionsListCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RingInstructionsListCollectionView.m; sourceTree = "<group>"; };
+		60FDE9E2223905670069082E /* StatisticsRingChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatisticsRingChartView.h; sourceTree = "<group>"; };
+		60FDE9E3223905670069082E /* RingInstructionsCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RingInstructionsCollectionViewCell.h; sourceTree = "<group>"; };
+		60FDE9E4223905670069082E /* StatisticsRingParentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatisticsRingParentView.h; sourceTree = "<group>"; };
+		60FDE9EA223905670069082E /* StatisticsRingChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatisticsRingChartView.m; sourceTree = "<group>"; };
+		60FDE9EB223905670069082E /* RingInstructionsListCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RingInstructionsListCollectionView.h; sourceTree = "<group>"; };
+		60FDE9F52239063A0069082E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		60FDE9F6223906F40069082E /* UIColor+LYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LYKit.h"; sourceTree = "<group>"; };
+		60FDE9F7223906F40069082E /* UIColor+LYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LYKit.m"; sourceTree = "<group>"; };
+		60FDE9F9223908050069082E /* RingInstructionsListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RingInstructionsListModel.m; sourceTree = "<group>"; };
+		60FDE9FA223908050069082E /* StatisticsRingParentViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatisticsRingParentViewModel.h; sourceTree = "<group>"; };
+		60FDE9FB223908050069082E /* StatisticsRingParentViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatisticsRingParentViewModel.m; sourceTree = "<group>"; };
+		60FDE9FC223908050069082E /* RingInstructionsListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RingInstructionsListModel.h; sourceTree = "<group>"; };
+		60FDEA04223909DD0069082E /* UIView+LYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LYKit.h"; sourceTree = "<group>"; };
+		60FDEA05223909DD0069082E /* UIView+LYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LYKit.m"; sourceTree = "<group>"; };
+		60FDEA0722390ABB0069082E /* StatisticsDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatisticsDataModel.h; sourceTree = "<group>"; };
+		60FDEA0822390ABB0069082E /* StatisticsDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatisticsDataModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60FDE9A1223904F80069082E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60FDE9B9223904FB0069082E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60FDE9C4223904FB0069082E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60FDE99B223904F80069082E = {
+			isa = PBXGroup;
+			children = (
+				60FDE9A6223904F80069082E /* SHFStatisticsRingChartDemo */,
+				60FDE9BF223904FB0069082E /* SHFStatisticsRingChartDemoTests */,
+				60FDE9CA223904FB0069082E /* SHFStatisticsRingChartDemoUITests */,
+				60FDE9A5223904F80069082E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60FDE9A5223904F80069082E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60FDE9A4223904F80069082E /* SHFStatisticsRingChartDemo.app */,
+				60FDE9BC223904FB0069082E /* SHFStatisticsRingChartDemoTests.xctest */,
+				60FDE9C7223904FB0069082E /* SHFStatisticsRingChartDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60FDE9A6223904F80069082E /* SHFStatisticsRingChartDemo */ = {
+			isa = PBXGroup;
+			children = (
+				60FDE9D9223905670069082E /* StatisticsRingParentView */,
+				60FDE9A7223904F80069082E /* AppDelegate.h */,
+				60FDE9A8223904F80069082E /* AppDelegate.m */,
+				60FDE9AA223904F80069082E /* ViewController.h */,
+				60FDE9AB223904F80069082E /* ViewController.m */,
+				60FDE9AD223904F80069082E /* Main.storyboard */,
+				60FDE9B0223904FB0069082E /* Assets.xcassets */,
+				60FDE9B2223904FB0069082E /* LaunchScreen.storyboard */,
+				60FDE9B5223904FB0069082E /* Info.plist */,
+				60FDE9B6223904FB0069082E /* main.m */,
+				60FDE9F52239063A0069082E /* PrefixHeader.pch */,
+			);
+			path = SHFStatisticsRingChartDemo;
+			sourceTree = "<group>";
+		};
+		60FDE9BF223904FB0069082E /* SHFStatisticsRingChartDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				60FDE9C0223904FB0069082E /* SHFStatisticsRingChartDemoTests.m */,
+				60FDE9C2223904FB0069082E /* Info.plist */,
+			);
+			path = SHFStatisticsRingChartDemoTests;
+			sourceTree = "<group>";
+		};
+		60FDE9CA223904FB0069082E /* SHFStatisticsRingChartDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				60FDE9CB223904FB0069082E /* SHFStatisticsRingChartDemoUITests.m */,
+				60FDE9CD223904FB0069082E /* Info.plist */,
+			);
+			path = SHFStatisticsRingChartDemoUITests;
+			sourceTree = "<group>";
+		};
+		60FDE9D9223905670069082E /* StatisticsRingParentView */ = {
+			isa = PBXGroup;
+			children = (
+				60FDEA00223908740069082E /* Model */,
+				60FDE9FF223908680069082E /* View */,
+				60FDE9F6223906F40069082E /* UIColor+LYKit.h */,
+				60FDE9F7223906F40069082E /* UIColor+LYKit.m */,
+				60FDEA04223909DD0069082E /* UIView+LYKit.h */,
+				60FDEA05223909DD0069082E /* UIView+LYKit.m */,
+			);
+			path = StatisticsRingParentView;
+			sourceTree = "<group>";
+		};
+		60FDE9FF223908680069082E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				60FDE9E4223905670069082E /* StatisticsRingParentView.h */,
+				60FDE9DB223905670069082E /* StatisticsRingParentView.m */,
+				60FDE9E2223905670069082E /* StatisticsRingChartView.h */,
+				60FDE9EA223905670069082E /* StatisticsRingChartView.m */,
+				60FDE9EB223905670069082E /* RingInstructionsListCollectionView.h */,
+				60FDE9E1223905670069082E /* RingInstructionsListCollectionView.m */,
+				60FDE9E3223905670069082E /* RingInstructionsCollectionViewCell.h */,
+				60FDE9DC223905670069082E /* RingInstructionsCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		60FDEA00223908740069082E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				60FDE9FA223908050069082E /* StatisticsRingParentViewModel.h */,
+				60FDE9FB223908050069082E /* StatisticsRingParentViewModel.m */,
+				60FDEA0722390ABB0069082E /* StatisticsDataModel.h */,
+				60FDEA0822390ABB0069082E /* StatisticsDataModel.m */,
+				60FDE9FC223908050069082E /* RingInstructionsListModel.h */,
+				60FDE9F9223908050069082E /* RingInstructionsListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60FDE9A3223904F80069082E /* SHFStatisticsRingChartDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60FDE9D0223904FB0069082E /* Build configuration list for PBXNativeTarget "SHFStatisticsRingChartDemo" */;
+			buildPhases = (
+				60FDE9A0223904F80069082E /* Sources */,
+				60FDE9A1223904F80069082E /* Frameworks */,
+				60FDE9A2223904F80069082E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SHFStatisticsRingChartDemo;
+			productName = SHFStatisticsRingChartDemo;
+			productReference = 60FDE9A4223904F80069082E /* SHFStatisticsRingChartDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60FDE9BB223904FB0069082E /* SHFStatisticsRingChartDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60FDE9D3223904FB0069082E /* Build configuration list for PBXNativeTarget "SHFStatisticsRingChartDemoTests" */;
+			buildPhases = (
+				60FDE9B8223904FB0069082E /* Sources */,
+				60FDE9B9223904FB0069082E /* Frameworks */,
+				60FDE9BA223904FB0069082E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60FDE9BE223904FB0069082E /* PBXTargetDependency */,
+			);
+			name = SHFStatisticsRingChartDemoTests;
+			productName = SHFStatisticsRingChartDemoTests;
+			productReference = 60FDE9BC223904FB0069082E /* SHFStatisticsRingChartDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60FDE9C6223904FB0069082E /* SHFStatisticsRingChartDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60FDE9D6223904FB0069082E /* Build configuration list for PBXNativeTarget "SHFStatisticsRingChartDemoUITests" */;
+			buildPhases = (
+				60FDE9C3223904FB0069082E /* Sources */,
+				60FDE9C4223904FB0069082E /* Frameworks */,
+				60FDE9C5223904FB0069082E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60FDE9C9223904FB0069082E /* PBXTargetDependency */,
+			);
+			name = SHFStatisticsRingChartDemoUITests;
+			productName = SHFStatisticsRingChartDemoUITests;
+			productReference = 60FDE9C7223904FB0069082E /* SHFStatisticsRingChartDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60FDE99C223904F80069082E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = sunhongfu;
+				TargetAttributes = {
+					60FDE9A3223904F80069082E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					60FDE9BB223904FB0069082E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 60FDE9A3223904F80069082E;
+					};
+					60FDE9C6223904FB0069082E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 60FDE9A3223904F80069082E;
+					};
+				};
+			};
+			buildConfigurationList = 60FDE99F223904F80069082E /* Build configuration list for PBXProject "SHFStatisticsRingChartDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60FDE99B223904F80069082E;
+			productRefGroup = 60FDE9A5223904F80069082E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60FDE9A3223904F80069082E /* SHFStatisticsRingChartDemo */,
+				60FDE9BB223904FB0069082E /* SHFStatisticsRingChartDemoTests */,
+				60FDE9C6223904FB0069082E /* SHFStatisticsRingChartDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60FDE9A2223904F80069082E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60FDE9B4223904FB0069082E /* LaunchScreen.storyboard in Resources */,
+				60FDE9B1223904FB0069082E /* Assets.xcassets in Resources */,
+				60FDE9AF223904F80069082E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60FDE9BA223904FB0069082E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60FDE9C5223904FB0069082E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60FDE9A0223904F80069082E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60FDE9ED223905670069082E /* StatisticsRingParentView.m in Sources */,
+				60FDE9F8223906F40069082E /* UIColor+LYKit.m in Sources */,
+				60FDEA06223909DD0069082E /* UIView+LYKit.m in Sources */,
+				60FDEA0922390ABC0069082E /* StatisticsDataModel.m in Sources */,
+				60FDE9EE223905670069082E /* RingInstructionsCollectionViewCell.m in Sources */,
+				60FDE9FD223908050069082E /* RingInstructionsListModel.m in Sources */,
+				60FDE9AC223904F80069082E /* ViewController.m in Sources */,
+				60FDE9F4223905670069082E /* StatisticsRingChartView.m in Sources */,
+				60FDE9B7223904FB0069082E /* main.m in Sources */,
+				60FDE9F2223905670069082E /* RingInstructionsListCollectionView.m in Sources */,
+				60FDE9FE223908050069082E /* StatisticsRingParentViewModel.m in Sources */,
+				60FDE9A9223904F80069082E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60FDE9B8223904FB0069082E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60FDE9C1223904FB0069082E /* SHFStatisticsRingChartDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60FDE9C3223904FB0069082E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60FDE9CC223904FB0069082E /* SHFStatisticsRingChartDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60FDE9BE223904FB0069082E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60FDE9A3223904F80069082E /* SHFStatisticsRingChartDemo */;
+			targetProxy = 60FDE9BD223904FB0069082E /* PBXContainerItemProxy */;
+		};
+		60FDE9C9223904FB0069082E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60FDE9A3223904F80069082E /* SHFStatisticsRingChartDemo */;
+			targetProxy = 60FDE9C8223904FB0069082E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60FDE9AD223904F80069082E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60FDE9AE223904F80069082E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60FDE9B2223904FB0069082E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60FDE9B3223904FB0069082E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60FDE9CE223904FB0069082E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		60FDE9CF223904FB0069082E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60FDE9D1223904FB0069082E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37DVJX7M39;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = /Users/sunhongfu/Desktop/Project/SHFStatisticsRingChartDemo/SHFStatisticsRingChartDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = SHFStatisticsRingChartDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sunhongfu.SHFStatisticsRingChartDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60FDE9D2223904FB0069082E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37DVJX7M39;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = /Users/sunhongfu/Desktop/Project/SHFStatisticsRingChartDemo/SHFStatisticsRingChartDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = SHFStatisticsRingChartDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sunhongfu.SHFStatisticsRingChartDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		60FDE9D4223904FB0069082E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37DVJX7M39;
+				INFOPLIST_FILE = SHFStatisticsRingChartDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sunhongfu.SHFStatisticsRingChartDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SHFStatisticsRingChartDemo.app/SHFStatisticsRingChartDemo";
+			};
+			name = Debug;
+		};
+		60FDE9D5223904FB0069082E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37DVJX7M39;
+				INFOPLIST_FILE = SHFStatisticsRingChartDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sunhongfu.SHFStatisticsRingChartDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SHFStatisticsRingChartDemo.app/SHFStatisticsRingChartDemo";
+			};
+			name = Release;
+		};
+		60FDE9D7223904FB0069082E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37DVJX7M39;
+				INFOPLIST_FILE = SHFStatisticsRingChartDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sunhongfu.SHFStatisticsRingChartDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SHFStatisticsRingChartDemo;
+			};
+			name = Debug;
+		};
+		60FDE9D8223904FB0069082E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37DVJX7M39;
+				INFOPLIST_FILE = SHFStatisticsRingChartDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sunhongfu.SHFStatisticsRingChartDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SHFStatisticsRingChartDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60FDE99F223904F80069082E /* Build configuration list for PBXProject "SHFStatisticsRingChartDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60FDE9CE223904FB0069082E /* Debug */,
+				60FDE9CF223904FB0069082E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60FDE9D0223904FB0069082E /* Build configuration list for PBXNativeTarget "SHFStatisticsRingChartDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60FDE9D1223904FB0069082E /* Debug */,
+				60FDE9D2223904FB0069082E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60FDE9D3223904FB0069082E /* Build configuration list for PBXNativeTarget "SHFStatisticsRingChartDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60FDE9D4223904FB0069082E /* Debug */,
+				60FDE9D5223904FB0069082E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60FDE9D6223904FB0069082E /* Build configuration list for PBXNativeTarget "SHFStatisticsRingChartDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60FDE9D7223904FB0069082E /* Debug */,
+				60FDE9D8223904FB0069082E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60FDE99C223904F80069082E /* Project object */;
+}

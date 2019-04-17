@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  SHFStatisticsRingChartDemo
+//
+//  Created by sunhongfu on 2019/3/13.
+//  Copyright © 2019 sunhongfu. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+#import "UIColor+LYKit.h"
+#import "UIView+LYKit.h"
+#define SCREEN_WIDTH     ([UIScreen mainScreen].bounds.size.width)
+#define SCREEN_HEIGHT    ([UIScreen mainScreen].bounds.size.height)
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#endif
+
+#endif /* PrefixHeader_pch */
